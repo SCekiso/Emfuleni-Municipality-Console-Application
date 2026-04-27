@@ -10,7 +10,7 @@ Smart Prioritization: Calculates an "Urgency Score" for every request.
 Interactive Queue: It has a Real-time management of pending requests where administrators can select and resolve issues by index.
 Final Analytics:Uses "LINQ" to identify the most urgent task resolved during the session.
 
-Techn Logic: (The Urgency Formula)
+Tech Logic: (The Urgency Formula)
 The system doesn't just treat every request the same. It uses a weighted formula to calculate the `UrgencyScore`:
 $$UrgencyScore = (Priority \times 0.5) + (Severity \times 0.3) + (EstimatedTime \times 0.2)$$
 Priority :The official rank of the task.
